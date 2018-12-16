@@ -2,7 +2,11 @@ import React from 'react';
 
 const Footer = () =>{
   return(
-    <h1>Footer</h1>
+    <footer className='page-footer'>
+      <div className='container'>
+        <p className='text-center'>&copy;2018 <span>CycleFeverTV</span></p>
+      </div>
+    </footer>
   );
 };
 
