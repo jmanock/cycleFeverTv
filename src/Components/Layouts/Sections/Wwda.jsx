@@ -9,7 +9,6 @@ const Wwdaw = () =>{
         <div className='card'>
           <img src={greenPepper} alt='Green Pepper' className='greenPepper' />
           <div className='card-body'>
-            <h5 className='card-title'></h5>
             <ul className='list-group list-group-flush'>
               <li className='list-group-item'>Provide local resource information in a video magazine format</li>
             </ul>
@@ -18,7 +17,6 @@ const Wwdaw = () =>{
         <div className='card'>
           <img src={greenPepper} alt='Green Pepper' className='greenPepper' />
           <div className='card-body'>
-            <h5 className='card-title'></h5>
             <ul className='list-group list-group-flush'>
               <li className='list-group-item'>Provide a platform to advertise products, events, and locations to key known audience</li>
             </ul>
@@ -27,7 +25,6 @@ const Wwdaw = () =>{
         <div className='card'>
           <img src={greenPepper} alt='Green Pepper' className='greenPepper' />
           <div className='card-body'>
-            <h5 className='card-title'></h5>
             <ul className='list-group list-group-flush'>
               <li className='list-group-item'>Create patnership with key compainies who have a shared ethos</li>
               <li className='list-group-item'>In the future, we will bring on more platforms and more outlets to bring the message to a greater audience</li>

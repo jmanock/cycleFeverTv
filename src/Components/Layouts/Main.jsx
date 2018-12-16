@@ -8,6 +8,7 @@ import Channel from './Sections/Channel';
 import Sponsorship from './Sections/Sponsorship';
 import Competitors from './Sections/Competitors';
 import About from './About';
+import Calendar from './Calendar';
 import './Main.css';
 
 const Main = () =>{
@@ -22,6 +23,7 @@ const Main = () =>{
       <Sponsorship />
       <Competitors />
       <About />
+      <Calendar />
     </Fragment>
   );
 };
