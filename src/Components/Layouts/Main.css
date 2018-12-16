@@ -15,6 +15,22 @@
 }
 .greenPepper{
   width:40%;
-  margin-left:100px;
-  margin-top:20px;
+  margin-left:25%;
+  margin-top:10%;
+}
+.cftvSign{
+  height:50%;
+  width:40px;
+  writing-mode:vertical-lr;
+  text-orientation:mixed;
+  transform:rotate(180deg);
+  background-color:#963019;
+  text-align:center;
+  color:#f6f1ed;
+}
+.cftvSign > h5{
+  margin-left:10px;
+}
+@media only screen and(max-width:576px){
+
 }

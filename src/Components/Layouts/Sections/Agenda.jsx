@@ -2,9 +2,9 @@ import React from 'react';
 
 const Agenda = () =>{
   return(
-    <section className='agenda container' style={{height:'50vh',marginTop:100}}>
+    <section className='agenda container' style={{marginTop:100,marginBottom:100}}>
       <div className='row'>
-        <div className='col-sm-6'>
+        <div className='col-md-6'>
           <div className='card'>
             <div className='card-body'>
               <h5 className='card-title text-center'>OFFERING VALUE CFTV</h5>
@@ -17,7 +17,7 @@ const Agenda = () =>{
             </div>
           </div>
         </div>
-        <div className='col-sm-6'>
+        <div className='col-md-6'>
           <div className='card'>
             <div className='card-body'>
               <h5 className='card-title text-center'>AGENDA</h5>

@@ -4,6 +4,9 @@ import Agenda from './Sections/Agenda';
 import Wwdaw from './Sections/Wwda';
 import Motovation from './Sections/Motovation';
 import Structure from './Sections/Structure';
+import Channel from './Sections/Channel';
+import Sponsorship from './Sections/Sponsorship';
+import Competitors from './Sections/Competitors';
 import './Main.css';
 
 const Main = () =>{
@@ -14,6 +17,9 @@ const Main = () =>{
       <Wwdaw />
       <Motovation />
       <Structure />
+      <Channel />
+      <Sponsorship />
+      <Competitors />
     </Fragment>
   );
 };
