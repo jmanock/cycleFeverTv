@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () =>{
   return(
-    <footer className='page-footer' style={{backgroundColor:'#333',color:'#fff'}}>
+    <footer className='page-footer' style={{backgroundColor:'#333'}}>
       <ul className='nav justify-content-center'>
         <li className='nav-link'>&copy;2018 CycleFeverTV</li>
         <li className='nav-item'>

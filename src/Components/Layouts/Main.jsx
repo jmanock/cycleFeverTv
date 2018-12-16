@@ -7,6 +7,7 @@ import Structure from './Sections/Structure';
 import Channel from './Sections/Channel';
 import Sponsorship from './Sections/Sponsorship';
 import Competitors from './Sections/Competitors';
+import About from './About';
 import './Main.css';
 
 const Main = () =>{
@@ -20,6 +21,7 @@ const Main = () =>{
       <Channel />
       <Sponsorship />
       <Competitors />
+      <About />
     </Fragment>
   );
 };
