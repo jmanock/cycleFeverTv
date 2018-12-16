@@ -31,6 +31,24 @@
 .cftvSign > h5{
   margin-left:10px;
 }
+.fab{
+  color:white;
+  font-size:1.5em;
+}
+.navbar-brand{
+  font-size:2em;
+  color:red;
+}
+.nav-link{
+  color:#fff;
+  font-size:1.3em;
+}
+.navbar-nav{
+  margin-left:100px;
+}
+footer{
+  margin-top:100px;
+}
 @media only screen and(max-width:576px){
 
 }
