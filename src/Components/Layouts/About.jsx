@@ -19,7 +19,7 @@ const About = () =>{
         <div className='row'>
           <div className='col-6'>
             <div className='card'>
-              <div className='card-body'>
+              <div className='card-body aboutCard'>
                 <img src={Hank} alt='Hank Knapp' style={{display:'block', marginLeft:'auto', marginRight:'auto',width:'50%'}}/>
                 <h5 className='card-title text-center'>Hank</h5>
                 <p className='card-text'>
@@ -33,7 +33,7 @@ const About = () =>{
           </div>
           <div className='col-6'>
             <div className='card'>
-              <div className='card-body'>
+              <div className='card-body aboutCard'>
                 <img src={Shawn} alt='Shawn Knapp' style={{display:'block', marginLeft:'auto', marginRight:'auto', width:'50%'}}/>
                 <h5 className='card-title text-center'>Shawn</h5>
                 <p className='card-text'>

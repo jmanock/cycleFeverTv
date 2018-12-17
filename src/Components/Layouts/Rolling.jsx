@@ -3,7 +3,7 @@ import Calendar from './Calendar';
 
 const Rolling = () =>{
   return(
-    <section className='rollingMedia'>
+    <section className='rollingMedia container'>
       <h1 className='title text-center'>Rolling Media</h1>
       <h3 style={{color:'#fff'}} className='text-center'>Coming Soon</h3>
       <Calendar />

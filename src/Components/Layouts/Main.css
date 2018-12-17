@@ -109,6 +109,12 @@ footer{
 .calendar{
   background-color:white;
 }
+.aboutCard{
+  background-color:#fffaf0;
+}
+.aboutCard > .card-text{
+  color:#333;
+}
 @media only screen and(max-width:576px){
 
 }
