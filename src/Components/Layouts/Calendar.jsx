@@ -47,7 +47,7 @@ class CustomToolbar extends Component{
 }
 
 const Calendar = props =>(
-  <div style={{marginTop:100}} className='container'>
+  <div style={{marginTop:100}} className='container calendar'>
     <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open' : ''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'100vh'}} eventPropGetter={(event,start,end,isSelected) => {
         let newStyle={backgroundColor:'red'}
 

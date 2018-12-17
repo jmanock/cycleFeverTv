@@ -2,10 +2,10 @@ import React from 'react';
 
 const Motovation = () =>{
   return(
-    <section className='motovation container' style={{marginTop:100, marginBottom:100}}>
+    <section className='motovation' style={{marginTop:100, marginBottom:100,height:'500px'}}>
       <div className='row'>
-        <div className='col-md-2'></div>
-        <div className='col-md-8'>
+        <div className='col-md-3'></div>
+        <div className='col-md-6' style={{marginTop:'70px'}}>
           <div className='card'>
             <div className='card-body'>
               <h5 className='card-title text-center'>What Motovates Us?</h5>
@@ -20,7 +20,7 @@ const Motovation = () =>{
             </div>
           </div>
         </div>
-        <div className='col-md-2'></div>
+        <div className='col-md-3'></div>
       </div>
     </section>
   );

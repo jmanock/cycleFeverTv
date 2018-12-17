@@ -1,8 +1,13 @@
 import React from 'react';
+import Calendar from './Calendar';
 
 const Small = () =>{
   return(
-    <h1>Small Town America Tv Page</h1>
+    <section className='smallTown'>
+      <h1 className='title text-center'>Small Town America</h1>
+      <h3 style={{color:'#fff'}} className='text-center'>Coming Soon</h3>
+      <Calendar />
+    </section>
   );
 };
 

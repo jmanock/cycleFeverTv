@@ -11,12 +11,12 @@ const Structure = () =>{
           </div>
         </div>
         <div className='col-sm-10 col-md-5'>
-          <div className='card'>
+          <div className='card' style={{marginBottom:20}}>
             <div className='card-body'>
               <h5 className='card-title text-center'>Cycle Fever Tv</h5>
             </div>
           </div>
-          <div className='card'>
+          <div className='card' style={{marginBottom:20}}>
             <div className='card-body'>
               <h5 className='card-title text-center'>Porsche Tv</h5>
             </div>

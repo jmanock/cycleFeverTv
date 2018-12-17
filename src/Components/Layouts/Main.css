@@ -1,3 +1,27 @@
+body{
+  background-color:#18121e;
+}
+.list-group-item{
+  color:#333;
+}
+.card-text{
+  color:#fffaf0;
+  font-size:1.1em;
+  /* color:#82b1ff; */
+}
+.icon{
+  cursor:pointer;
+}
+.card{
+  background-color:#233237;
+}
+.title{
+  color:#eac67a;
+  margin-top:20px;
+}
+.card-body{
+  color:#984b43;
+}
 .intro{
   background:url('../../images/car.jpg') no-repeat center fixed;
   -webkit-background-size:cover;
@@ -24,6 +48,10 @@
   writing-mode:vertical-lr;
   text-orientation:mixed;
   transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
   background-color:#963019;
   text-align:center;
   color:#f6f1ed;
@@ -37,7 +65,7 @@
 }
 .navbar-brand{
   font-size:2em;
-  color:red;
+  color:#984b43 !important;
 }
 .nav-link{
   color:grey;
@@ -46,8 +74,40 @@
 .navbar-nav{
   margin-left:100px;
 }
+.navbar{
+  background-color:#233237 !important;
+}
 footer{
   margin-top:100px;
+  background-color:#233237 !important;
+}
+.motovation{
+  background:url('../../images/aceevent.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+}
+.competitors{
+  background:url('../../images/Ace.jpg') no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-color:#1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+}
+.carsTv, .rollingMedia, .smallTown, .cftv{
+  background-color:#233237;
+}
+.calendar{
+  background-color:white;
 }
 @media only screen and(max-width:576px){
 

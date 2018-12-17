@@ -2,11 +2,11 @@ import React from 'react';
 
 const Competitors = () =>{
   return(
-    <section className='competitors container' style={{marginTop:100}}>
+    <section className='competitors' style={{marginTop:100,height:'300px'}}>
       <h3 className='title text-center'>COMPETITORS?</h3>
       <div className='row'>
         <div className='col-md-3'></div>
-        <div className='col-md-6'>
+        <div className='col-md-6' style={{marginTop:'50px'}}>
           <div className='card'>
             <div className='card-body'>
               <ul className='list-group list-group-flush'>

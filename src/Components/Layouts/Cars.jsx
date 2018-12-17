@@ -1,8 +1,13 @@
 import React from 'react';
+import Calendar from './Calendar';
 
 const Cars = () =>{
   return(
-    <h1>Cars Tv Page</h1>
+    <section className='carsTv'>
+      <h1 className='title text-center'>Cars Tv</h1>
+        <h3 style={{color:'#fff'}} className='text-center'>Coming Soon</h3> 
+      <Calendar />
+    </section>
   );
 };
 

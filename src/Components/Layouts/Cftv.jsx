@@ -1,8 +1,13 @@
 import React from 'react';
+import Calendar from './Calendar';
 
 const Cftv = () =>{
   return(
-    <h1>Cycle Fever TV Page</h1>
+    <section className='cftv'>
+      <h1 className='title text-center'>Cycle Fever Tv</h1>
+      <h3 style={{color:'#fff'}} className='text-center'>Coming Soon</h3>
+      <Calendar />
+    </section>
   );
 };
 

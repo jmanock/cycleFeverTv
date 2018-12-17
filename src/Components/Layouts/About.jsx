@@ -4,7 +4,7 @@ import Shawn from '../../images/shawn1.jpg';
 
 const About = () =>{
   return(
-    <section className='about container' style={{marginTop:100}}>
+    <section className='about container'>
       <div className='card'>
         <div className='card-body'>
           <h3 className='card-title text-center'>About</h3>
