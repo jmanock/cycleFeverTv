@@ -1,4 +1,4 @@
-import React, { Component,Fragment } from 'react';
+import React, {Component} from 'react';
 import {Switch,BrowserRouter,Route} from 'react-router-dom';
 import Header from './Components/Layouts/Header';
 import Footer from './Components/Layouts/Footer';
