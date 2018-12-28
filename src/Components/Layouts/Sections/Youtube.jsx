@@ -16,7 +16,7 @@ class Youtube extends Component{
     }
     const {videoId} = this.props;
     return(
-      <div className='container' style={{marginLeft:'20%',marginTop:50}}>
+      <div className='container' style={{textAlign:'center',marginTop:50}}>
         <YouTube videoId={videoId} opts={opts} onReady={this.videoOnReady}/>
       </div>
     );
