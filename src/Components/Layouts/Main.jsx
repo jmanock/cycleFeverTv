@@ -9,6 +9,7 @@ import Sponsorship from './Sections/Sponsorship';
 import Competitors from './Sections/Competitors';
 import './Main.css';
 import Calendar from './Calendar';
+import Events from './Events';
 
 const Main = () =>{
   return(
@@ -21,7 +22,7 @@ const Main = () =>{
       <Channel />
       <Sponsorship />
       <Competitors />
-      <Calendar />
+      <Calendar events={Events}/>
 
     </Fragment>
   );

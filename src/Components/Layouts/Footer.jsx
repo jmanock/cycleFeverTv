@@ -4,7 +4,7 @@ const Footer = () =>{
   return(
     <footer className='page-footer' style={{backgroundColor:'#333'}}>
       <ul className='nav justify-content-center'>
-        <li className='nav-link'>&copy;2018 CycleFeverTV</li>
+        <li className='nav-link'>&copy;2019 CycleFeverTV</li>
         <li className='nav-item'>
           <a href='https://www.facebook.com/CycleFeverTV/' className='nav-link'><i className='fab fa-facebook-f'></i></a>
         </li>

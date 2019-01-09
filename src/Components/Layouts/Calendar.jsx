@@ -3,6 +3,7 @@ import BigCalendar from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import moment from 'moment';
 import dunder from '../../images/dunder.jpg';
+import Events from './Events';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
@@ -12,6 +13,7 @@ let navigate = {
   TODAY:'TODAY',
   DATE:'DATE'
 };
+
 const something = <a href='#id'><img src={dunder} alt='Dunder Logo' className='dunder'></img></a>
 let events = [
   {title:'Happy New Year', start:new Date(2019,0,1), end:new Date(2019,0,1)},
@@ -49,16 +51,18 @@ class CustomToolbar extends Component{
   }
 }
 
-const Calendar = props =>(
-  <div style={{marginTop:100}} className='container calendar'>
-    <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open' : ''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'100vh'}} eventPropGetter={(event,start,end,isSelected) => {
-        let newStyle={backgroundColor:'red'}
-          if(event.title === something){
-            newStyle={backgroundColor:'transparent'}
-          }
-        return{className:'',style:newStyle}
-      }}/>
-  </div>
-);
+const Calendar = props =>{
+  return(
+    <div style={{marginTop:100}} className='container calendar'>
+      <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open' : ''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'100vh'}} eventPropGetter={(event,start,end,isSelected) => {
+          let newStyle={backgroundColor:'red'}
+            if(event.title === something){
+              newStyle={backgroundColor:'transparent'}
+            }
+          return{className:'',style:newStyle}
+        }}/>
+    </div>
+  )
+};
 
 export default Calendar;
