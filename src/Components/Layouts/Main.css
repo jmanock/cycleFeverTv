@@ -115,6 +115,11 @@ footer{
 .aboutCard > .card-text{
   color:#333;
 }
+.dunder{
+  height:100px;
+  width:200px;
+  margin-left:50px;
+}
 @media only screen and(max-width:576px){
 
 }

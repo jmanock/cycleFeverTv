@@ -8,6 +8,7 @@ import Channel from './Sections/Channel';
 import Sponsorship from './Sections/Sponsorship';
 import Competitors from './Sections/Competitors';
 import './Main.css';
+import Calendar from './Calendar';
 
 const Main = () =>{
   return(
@@ -20,6 +21,8 @@ const Main = () =>{
       <Channel />
       <Sponsorship />
       <Competitors />
+      <Calendar />
+
     </Fragment>
   );
 };
