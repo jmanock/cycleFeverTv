@@ -3,7 +3,6 @@ import BigCalendar from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import moment from 'moment';
 import dunder from '../../images/dunder.jpg';
-import Events from './Events';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
