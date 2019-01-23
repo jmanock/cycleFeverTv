@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import BigCalendar from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import moment from 'moment';
+import Youtube from './Sections/Youtube';
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
@@ -47,10 +48,9 @@ class CustomToolbar extends Component{
   }
 }
 
-const Cars = props =>{
+const Calendar = props =>{
   return(
     <div style={{marginTop:100}} className='container calendar'>
-      <h1 className='title text-center'>Cars TV</h1>
       <BigCalendar localizer={localizer} events={events} popup startAccessor='start' endAccessor='end' className={props.calendarIsOpen ? 'open':''} components={{event:Event, toolbar:CustomToolbar}} style={{height:'100vh'}} eventPropGetter={(event, start, end, isSelected) => {
           let newStyle={backgroundColor:'red'};
           if(event.title === 'something'){
@@ -63,4 +63,13 @@ const Cars = props =>{
   );
 }
 
+const Cars = () =>{
+  return(
+    <div className='container'>
+      <h1 className='text-center title'>Cars Tv</h1>
+      <Youtube videoId='dNZjsk7Fkxw' />
+      <Calendar />
+    </div>
+  )
+}
 export default Cars;
